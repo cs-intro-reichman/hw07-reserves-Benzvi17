@@ -51,5 +51,7 @@ public class HashTagTokenizer {
 		
  	       }
     	}
+	System.out.println(hashtag.substring(0, 1));
+	breakHashTag(hashtag.substring(1), dictionary);
 	}
 }
