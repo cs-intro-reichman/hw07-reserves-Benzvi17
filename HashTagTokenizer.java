@@ -24,6 +24,7 @@ public class HashTagTokenizer {
 	}
 
 	public static boolean existInDictionary(String word, String []dictionary) {
+		word = word.toLowerCase();
 		for (int i = 0; i < dictionary.length; i++) {
 			if (word == dictionary[i]) {
 				return true;
