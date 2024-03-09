@@ -19,7 +19,6 @@ public class HashTagTokenizer {
 				dictionary[index] = word;
 				index++;
 			}
-		in.close();
 		return dictionary;
 	}
 
